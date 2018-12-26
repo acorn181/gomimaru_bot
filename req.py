@@ -65,5 +65,4 @@ if result == '':
     result = get_gomimaru(url, 1, kind.target)
 
 # 結果返却
-print(url)
-print(str(month) + '/' + result)
+print('次の' + str(kind.target) + 'ゴミの日は、' + str(month) + '/' + result + 'だよー！')
